@@ -1454,9 +1454,9 @@ elif page == "Bagaimana Hubungan Stunting dengan Faktor yang Diduga?":
         st.write(f'Nilai Korelasi: {correlation:.2f}')
         st.write(f'Persamaan Regresi: {equation}')
         additional_info = (
-            "1. Korelasi antara stunting dan imunisasi dasar lengkap adalah -0.42. Ini  menunjukkan bahwa ada hubungan negatif moderat antara tingkat stunting dan imunisasi dasar lengkap."
+            "1. Korelasi antara stunting dan imunisasi dasar lengkap adalah -0.39. Ini  menunjukkan bahwa ada hubungan negatif moderat antara tingkat stunting dan imunisasi dasar lengkap."
             "Dalam kata lain, semakin tinggi tingkat stunting, semakin rendah tingkat imunisasi dasar lengkap, dan sebaliknya.<br>"
-            "2. -0.20 adalah koefisien kemiringan garis regresi. Ini menunjukkan bahwa setiap peningkatan satu unit dalam imunisasi dasar lengkap (x) akan diikuti oleh penurunan sebesar 0.20 unit dalam tingkat stunting (y)..<br>"
+            "2. -0.19 adalah koefisien kemiringan garis regresi. Ini menunjukkan bahwa setiap peningkatan satu unit dalam imunisasi dasar lengkap (x) akan diikuti oleh penurunan sebesar 0.20 unit dalam tingkat stunting (y)..<br>"
             "3. 35.88 adalah intercept, yang menunjukkan perkiraan tingkat stunting ketika tingkat imunisasi dasar lengkap adalah nol.<br>"
         )
         additional_info = '<div style="text-align: justify; text-justify: inter-word; border: 1px solid red; padding: 10px">' + additional_info + '</div>'

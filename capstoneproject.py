@@ -821,7 +821,7 @@ elif page == "Faktor yang Diduga Mempengaruhi Stunting":
             # Membuat bar chart horizontal dengan Altair
             bars = alt.Chart(selected_data).mark_bar().encode(
                 y=alt.Y('Variable:N', title='Variable'),  # Variabel di sumbu y
-                x=alt.X('Value:Q', title=Persentase),  # Nilai di sumbu x
+                x=alt.X('Value:Q', title='Persentase'),  # Nilai di sumbu x
                 color='Variable:N'  # Warna berdasarkan variabel
             ).properties(
                 width=600,

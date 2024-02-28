@@ -11,7 +11,7 @@ st.set_page_config(
 # Membaca file CSV ke dalam sebuah DataFrame
 file1 ='Data.csv'
 df1 = pd.read_csv(file1)
-st.write(df1)
+#st.write(df1)
 #df1.info()
 
 # helper function

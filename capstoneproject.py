@@ -1360,7 +1360,7 @@ elif page == "Faktor yang Diduga Mempengaruhi Stunting":
     else:
         ()
     sumber = """
-    Sumber Data: [Sanitasi Layak](https://www.bps.go.id/id/statistics-table/2/MTI2NyMy/proporsi-rumah-tangga-yang-memiliki-akses-terhadap-layanan-sanitasi-layak.html) 
+    Sumber Data: [Sanitasi Layak,](https://www.bps.go.id/id/statistics-table/2/MTI2NyMy/proporsi-rumah-tangga-yang-memiliki-akses-terhadap-layanan-sanitasi-layak.html) 
                 [Imunisasi Dasar Lengkap dan Ibu Melahirkan < 20 Tahun](https://www.bps.go.id/id/publication/2022/12/23/54f24c0520b257b3def481be/profil-kesehatan-ibu-dan-anak-2022.html)     
         """
     st.markdown(sumber)

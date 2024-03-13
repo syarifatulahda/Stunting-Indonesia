@@ -1524,12 +1524,11 @@ elif page == "Kesimpulan":
     st.write("Angka stunting di Indonesia pada tahun 2022 sudah lebih kecil jika dibandingkan dengan tahun 2021. "
              "Namun, jika dilihat dari berbagai provinsi yang ada angka stunting disetiap provinsi masih ada yang mengalami kenaikan dan juga masih ada beberapa provinsi yang berada diatas rata-rata angka stunting di Indonesia. "
              "Provinsi yang angka stuntingnya mengalami kenaikan pada tahun 2022 adalah Sulawesi Barat, Papua, Nusa Tenggara Barat, Papua Barat, Sumatera Barat, dan Kalimantan Timur. "
-             "Selain itu, untuk provinsi yang masih berada diatas rata-rata angka stunting Indonesia adalah provinsi Nusa Tenggara Timur, Sulawesi Barat, Papua, Nusa Tengga Barat, Aceh, Papua Barat, Sulawesi Tengah, Kalimantan Barat, Sulawesi Tenggara, Sulawesi Selatan, Kalimantan Tengah, Maluku Utara, Maluku, Sumatera Barat, Kalimantan Selatan, Kalimantan Timur dan Gorontalo"
+             "Selain itu, untuk provinsi yang masih berada diatas rata-rata angka stunting Indonesia adalah provinsi Nusa Tenggara Timur, Sulawesi Barat, Papua, Nusa Tengga Barat, Aceh, Papua Barat, Sulawesi Tengah, Kalimantan Barat, Sulawesi Tenggara, Sulawesi Selatan, Kalimantan Tengah, Maluku Utara, Maluku, Sumatera Barat, Kalimantan Selatan, Kalimantan Timur dan Gorontalo. "
             )
-    st.write("Sesuai dengan target pemerintah yang akan menurunkan stunting di Indonesia pada angka 14% , maka sebaiknya faktor-faktor yang diduga mempengaruhi stunting tersebut diperhatikan agar target tersebut dapat tercapai pada tahun 2024. "
-             "Sanitasi yang layak, memberikan pengaruh yang signifikan terhadap stunting di Indonesia. Pemerintah dan masyarakat harus memperhatikan kondisi disekitar untuk akses air bersih serta fasilitas untuk menunjang sanitasi yang layak. Bukan hanya itu, pemerintah juga seharusnya melakukan penyuluhan kepada masyarakay serta melakukan monitoring dan evaluasi secara teratur untuk mengukur kemajuan dalam meningkatkan "
-             "sanitasi dan dampaknya terhadap angka stunting."
-
+    st.write("Demi mencapai target pemerintah untuk menurunkan angka stunting di Indonesia menjadi 14% pada tahun 2024, penting bagi kita untuk memperhatikan faktor-faktor yang diduga mempengaruhi stunting. "
+             "Salah satu faktor yang sangat berpengaruh adalah sanitasi yang layak. Oleh karena itu, pemerintah dan masyarakat perlu memperhatikan kondisi sekitar terkait akses air bersih serta fasilitas sanitasi yang memadai. "
+             "Selain itu, diperlukan upaya penyuluhan kepada masyarakat serta pelaksanaan monitoring dan evaluasi secara teratur untuk mengukur kemajuan dalam meningkatkan sanitasi dan dampaknya terhadap angka stunting."
             )
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Ditulis oleh:**")

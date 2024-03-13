@@ -1520,7 +1520,7 @@ elif page == "Bagaimana Hubungan Stunting dengan Faktor yang Diduga?":
         st.markdown(f'<div style="border: 1px solid red; padding: 10px">{additional_info2}</div>', unsafe_allow_html=True)
         
 elif page == "Kesimpulan":
-    st.title("Bagaimana Stunting Indonesia 2022")
+    st.title("Bagaimana Stunting Indonesia 2022?")
     st.write("Angka stunting di Indonesia pada tahun 2022 sudah lebih kecil jika dibandingkan dengan tahun 2021. "
              "Namun, jika dilihat dari berbagai provinsi yang ada angka stunting disetiap provinsi masih ada yang mengalami kenaikan dan juga masih ada beberapa provinsi yang berada diatas rata-rata angka stunting di Indonesia. "
              "Provinsi yang angka stuntingnya mengalami kenaikan pada tahun 2022 adalah Sulawesi Barat, Papua, Nusa Tenggara Barat, Papua Barat, Sumatera Barat, dan Kalimantan Timur. "

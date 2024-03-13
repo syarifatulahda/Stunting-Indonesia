@@ -1526,8 +1526,9 @@ elif page == "Kesimpulan":
              "Provinsi yang angka stuntingnya mengalami kenaikan pada tahun 2022 adalah Sulawesi Barat, Papua, Nusa Tenggara Barat, Papua Barat, Sumatera Barat, dan Kalimantan Timur. "
              "Selain itu, untuk provinsi yang masih berada diatas rata-rata angka stunting Indonesia adalah provinsi Nusa Tenggara Timur, Sulawesi Barat, Papua, Nusa Tengga Barat, Aceh, Papua Barat, Sulawesi Tengah, Kalimantan Barat, Sulawesi Tenggara, Sulawesi Selatan, Kalimantan Tengah, Maluku Utara, Maluku, Sumatera Barat, Kalimantan Selatan, Kalimantan Timur dan Gorontalo"
             )
-    st.write("Faktor-faktor yang diduga mempengaruhi stunting di Indonesia, ternyata memang memberikan pengaruhi terhadap stunting di Indonesia. "
-             "Sanitasi yang layak memberikan pengaruh yang signifikan terhadap stunting di Indonesia. "
+    st.write("Sesuai dengan target pemerintah yang akan menurunkan stunting di Indonesia pada angka 14% , maka sebaiknya faktor-faktor yang diduga mempengaruhi stunting tersebut diperhatikan agar target tersebut dapat tercapai pada tahun 2024. "
+             "Sanitasi yang layak, memberikan pengaruh yang signifikan terhadap stunting di Indonesia. Pemerintah dan masyarakat harus memperhatikan kondisi disekitar, untuk akses air bersih serta fasilitas untuk menunjang sanitasi yang layak. Bukan hanya itu, pemerintah juga seharusnya melakukan penyuluhan kepada masyarakay serta melakukan monitoring dan evaluasi secara teratur untuk mengukur kemajuan dalam meningkatkan "
+             "sanitasi dan dampaknya terhadap angka stunting."
 
             )
 st.sidebar.markdown("---")

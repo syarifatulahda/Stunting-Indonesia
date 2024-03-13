@@ -1531,6 +1531,9 @@ elif page == "Kesimpulan":
              "Salah satu faktor yang sangat berpengaruh adalah sanitasi yang layak. Oleh karena itu, pemerintah dan masyarakat perlu memperhatikan kondisi sekitar terkait akses air bersih serta fasilitas sanitasi yang memadai. "
              "Selain itu, diperlukan upaya penyuluhan kepada masyarakat serta pelaksanaan monitoring dan evaluasi secara teratur untuk mengukur kemajuan dalam meningkatkan sanitasi dan dampaknya terhadap angka stunting."
             )
+    st.write("Dalam upaya menurunkan angka stunting di Indonesia, kolaborasi antara pemerintah, masyarakat, dan berbagai pihak terkait sangatlah penting. Dengan komitmen bersama untuk meningkatkan akses terhadap sanitasi yang layak, "
+             "melaksanakan program penyuluhan yang efektif, serta melakukan monitoring dan evaluasi secara teratur, kita dapat bergerak menuju pencapaian target pemerintah untuk mengurangi angka stunting menjadi 14% pada tahun 2024. "
+             "Melalui langkah-langkah konkret ini, kita tidak hanya berinvestasi dalam kesejahteraan generasi mendatang, tetapi juga membangun fondasi yang kokoh bagi pertumbuhan dan perkembangan bangsa.")
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Ditulis oleh:**")
 st.sidebar.markdown("Syarifatul Ahda")

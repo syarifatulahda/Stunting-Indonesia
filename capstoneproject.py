@@ -46,7 +46,7 @@ st.markdown(
 st.sidebar.title('Stunting')
 
 # Membuat menu navigasi
-page = st.sidebar.radio("Pilih Halaman", ["Stunting di Indonesia", "Faktor yang Diduga Mempengaruhi Stunting", "Bagaimana Hubungan Stunting dengan Faktor yang Diduga?"])
+page = st.sidebar.radio("Pilih Halaman", ["Stunting di Indonesia", "Faktor yang Diduga Mempengaruhi Stunting", "Bagaimana Hubungan Stunting dengan Faktor yang Diduga?", "Kesimpulan"])
 
 # Tampilkan konten berdasarkan pilihan navigasi
 
@@ -1518,7 +1518,18 @@ elif page == "Bagaimana Hubungan Stunting dengan Faktor yang Diduga?":
         )
         st.write("Kesimpulan:")
         st.markdown(f'<div style="border: 1px solid red; padding: 10px">{additional_info2}</div>', unsafe_allow_html=True)
+        
+elif page == "Kesimpulan":
+    st.title("Bagaimana Stunting Indonesia 2022")
+    st.write("Angka stunting di Indonesia pada tahun 2022 sudah lebih kecil jika dibandingkan dengan tahun 2021. "
+             "Namun, jika dilihat dari berbagai provinsi yang ada angka stunting disetiap provinsi masih ada yang mengalami kenaikan dan juga masih ada beberapa provinsi yang berada diatas rata-rata angka stunting di Indonesia. "
+             "Provinsi yang angka stuntingnya mengalami kenaikan pada tahun 2022 adalah Sulawesi Barat, Papua, Nusa Tenggara Barat, Papua Barat, Sumatera Barat, dan Kalimantan Timur. "
+             "Selain itu, untuk provinsi yang masih berada diatas rata-rata angka stunting Indonesia adalah provinsi Nusa Tenggara Timur, Sulawesi Barat, Papua, Nusa Tengga Barat, Aceh, Papua Barat, Sulawesi Tengah, Kalimantan Barat, Sulawesi Tenggara, Sulawesi Selatan, Kalimantan Tengah, Maluku Utara, Maluku, Sumatera Barat, Kalimantan Selatan, Kalimantan Timur dan Gorontalo"
+            )
+    st.write("Faktor-faktor yang diduga mempengaruhi stunting di Indonesia, ternyata memang memberikan pengaruhi terhadap stunting di Indonesia. "
+             "Sanitasi yang layak memberikan pengaruh yang signifikan terhadap stunting di Indonesia. "
 
+            )
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Ditulis oleh:**")
 st.sidebar.markdown("Syarifatul Ahda")

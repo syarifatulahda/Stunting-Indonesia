@@ -1538,3 +1538,4 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("**Ditulis oleh:**")
 st.sidebar.markdown("Syarifatul Ahda")
 st.sidebar.markdown("email : syarifatulahdajy@gmail.com")
+#redeploy
